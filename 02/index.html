@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO A HTML</title>
+   
+</head>
+<body bgcolor="#36AD77" text="white">
+    <a href="dos.html">IR A DOS</a>
+     <a href="miestilo.html">IR A MI ESTILO</a>
+    <a href="https://www.google.com" target="_blank"> GOOGLE<a/>
+    <h1>JESUS ALBERTO</h1>
+    <h2>JESUS ALBERTO</h2>
+    <h3>JESUS ALBERTO</H3>
+    <h4>JESUS ALBERTO</h4>
+    <h5>JESUS ALBERTO</h5>
+    <h6>JESUS ALBERTO</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis saepe voluptatem asperiores. Excepturi delectus molestias tenetur maiores rem, porro nulla at nihil blanditiis magnam quisquam nobis omnis tempora fugit.</p>
+<hr>
+<marquee behavior="scroll"
+direction="left">VIVA MEXICO</marquee>
+<marquee behavior="scroll"
+direction="right">VIVA MEXICO</marquee>
+
+
+<ul type="square">
+    <li>JESUS</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+</ul>
+
+<ol type="I">
+    <li>JESUS</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+    <li>ALBERTO</li>
+</ol>
+
+<img src="img/abril.jpg" alt="" width="100px" height="100px">
+<table border="1" width="100%" cellspacing="0" cellpadding="10">
+    <tr>
+        <td>JESUS</td>
+         <td>ALBERTO</td>
+        
+    </tr>
+     <tr>
+        <td>JESUS</td>
+         <td>ALBERTO</td>
+        
+    </tr>
+</table>
+<video src="img/video.mp4" width="320" height="240" controls>
+</video>
+<br>
+<br>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/ZLNudjlZoOU"
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; 
+autoplay; clipboard-write; 
+encrypted-media;
+ gyroscope;
+  picture-in-picture;
+   web-share"
+referrerpolicy="strict-origin-when-cross-
+orogin" allowfullscreen></iframe>
+<h1>FORMULARIOS</h1>
+<form action="/registro" method="post" autocomplete="on">
+
+  <!-- Datos personales -->
+  <fieldset>
+    <legend>Datos personales</legend>
+
+    <label>Nombre completo:
+      <input type="text" name="nombre" placeholder="Ej. Juan Pérez" required minlength="3">
+    </label>
+
+    <label>Correo electrónico:
+      <input type="email" name="correo" required>
+    </label>
+
+    <label>Contraseña:
+      <input type="password" name="password" required pattern=".{6,}">
+    </label>
+
+    <label>Edad:
+      <input type="number" name="edad" min="18" max="100" required>
+    </label>
+
+    <label>Fecha de nacimiento:
+      <input type="date" name="fecha">
+    </label>
+
+  </fieldset>
+
+  <!-- Preferencias -->
+  <fieldset>
+    <legend>Preferencias</legend>
+
+    <label>Color favorito:
+      <input type="color" name="color">
+    </label>
+
+    <label>Nivel de satisfacción:
+      <input type="range" name="nivel" min="0" max="10">
+    </label>
+
+    <label>Lenguaje favorito:
+      <input list="lenguajes" name="lenguaje">
+      <datalist id="lenguajes">
+        <option value="JavaScript">
+        <option value="Python">
+        <option value="Java">
+        <option value="C++">
+      </datalist>
+    </label>
+
+    <p>Intereses:</p>
+    <label class="inline"><input type="checkbox" name="intereses" value="web"> Web</label>
+    <label class="inline"><input type="checkbox" name="intereses" value="ia"> IA</label>
+    <label class="inline"><input type="checkbox" name="intereses" value="apps"> Apps</label>
+
+  </fieldset>
+
+  <!-- Ubicación -->
+  <fieldset>
+    <legend>Ubicación</legend>
+<label for="pais">País:</label>
+<input list="lista-paises" id="pais" name="pais" placeholder="Escribe tu país">
+
+<datalist id="lista-paises">
+  <option value="México">
+  <option value="España">
+  <option value="Argentina">
+  <option value="Colombia">
+  <option value="Chile">
+  <option value="Perú">
+  <option value="Estados Unidos">
+  <option value="Canadá">
+</datalist>
+   
+    </label>
+
+  </fieldset>
+
+  <!-- Comentarios -->
+  <fieldset>
+    <legend>Comentarios</legend>
+
+    <label>Mensaje:
+      <textarea name="mensaje" rows="4" placeholder="Escribe aquí..."></textarea>
+    </label>
+
+    <label>Subir archivo:
+      <input type="file" name="archivo">
+    </label>
+
+  </fieldset>
+
+  <!-- Elementos avanzados -->
+  <fieldset>
+    <legend>Extras</legend>
+
+    <label>Progreso:
+      <progress value="70" max="100"></progress>
+    </label>
+
+    <label>Medición:
+      <meter value="0.6">60%</meter>
+    </label>
+
+  </fieldset>
+
+  <!-- Botones -->
+  <button type="submit">Enviar</button>
+  <button type="reset">Limpiar</button>
+
+</form>
+
+</body>
+</html>
+</form>
+
+</body>
+</html>
